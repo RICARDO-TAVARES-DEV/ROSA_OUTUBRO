@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  list-style: none;
+}
+
+header {
+  background-color: #FF69B4;
+  color: #E4EEF1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 28px;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+}
+
+.image1 {
+  width: 20vw;
+  height: 20vh;
+}
+
+ul {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.caixa1 {
+  margin: 1px;
+  padding: 100px;
+  background-color: #FFD9EC;
+  font-size: 25px;
+  display: flex;
+  line-height: 34.05px;
+  justify-content: space-around;
+  margin-bottom: 3px;
+}
+
+.texto1 {
+  padding-top: 100px;
+  width: 40vw;
+}
+
+.rosa1 {
+  width: 43vw;
+  height: 86.92vh;
+  padding-bottom: 2px;
+}
+
+.caixa2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #FF69B4;
+  padding: 45px;
+}
+
+.texto2 {
+  font-size: 25px;
+  color: #E4EEF1;
+  display: flex;
+  align-items: center;
+  width: 42vw;
+}
+
+.rosa2 {
+  width: 32.03vw;
+  height: 34.46vh;
+  padding-bottom: 2px;
+}
+
+.caixa3 {
+  background-color: #FFD9EC;
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #FF69B4;
+  color: #E4EEF1;
+}
+
+.texto3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+@media (max-width: 800px) {
+  header {
+    width: 100vw;
+    background-color: #FF69b4;
+    font-size: 9px;
+    font-weight: 800;
+    color: #000;
+  }
+  header .topo {
+    display: flex;
+    flex-direction: column;
+  }
+  header .image1 {
+    width: 5vw;
+    height: 5vh;
+  }
+  .caixa1 {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    padding: 0;
+    align-items: center;
+  }
+  .caixa1 .texto1 {
+    width: 50vw;
+    height: 80vh;
+    font-size: 12.42px;
+    padding-bottom: 400px;
+  }
+  .caixa1 .rosa1 {
+    width: 30vw;
+    height: 30vh;
+  }
+  .caixa2 {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .caixa2 .texto2 {
+    width: 100vw;
+    height: 100vh;
+    font-size: 13.3px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: black;
+  }
+  .caixa2 .rosa2 {
+    width: 61vw;
+    height: 23vh;
+  }
+  .caixa3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .caixa3 .alertas {
+    width: 60vw;
+    height: 60vh;
+    padding-bottom: 60px;
+  }
+  .texto3 {
+    color: #000;
+  }
+}/*# sourceMappingURL=style.css.map */
